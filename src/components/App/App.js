@@ -31,7 +31,7 @@ function App() {
 
   useEffect(() => {
     getTrendingAnime().then((trendingList) => {
-      // console.log(trendingList);
+      console.log(trendingList);
       SetTrendingAnime(trendingList.data);
     });
   }, []);

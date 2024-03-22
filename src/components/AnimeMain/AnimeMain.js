@@ -13,14 +13,14 @@ const AnimeMain = ({ trendingAnimeList, animeList }) => {
         pagination={{ clickable: true }}
         navigation
         effect={"fade"}
-        slidesPerView={6}
+        slidesPerView={1}
         spaceBetween={50}
         loop
         className="my-swiper"
       >
         {trendingAnimeList.map((anime) => {
           return (
-            <SwiperSlide className="swiper-slide">
+            <SwiperSlide className="swiper-slide" key={anime.mal_id}>
               <div className="swiper-card">
                 <TrendingCard anime={anime} />
               </div>
