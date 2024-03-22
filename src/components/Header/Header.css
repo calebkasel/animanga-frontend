@@ -1,4 +1,91 @@
-header {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+    padding: 32px 40px 28px 40px;
+    /* background-color: antiquewhite; */
+  }
+  
+  .header__menu-left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .header__menu-right {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+  
+  .header__logo {
+    max-width: 200px;
+    max-height: 100px;
+  }
+  
+  .header__user {
+    color: #000;
+    padding-left: 20px;
+    font-family: "Cabinet Grotesk", Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+  
+  .header__avatar {
+    padding-left: 12px;
+    max-width: 40px;
+    max-height: 40px;
+  
+  }
+  
+  .header__avatar-default {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .header__tab {
+    border: none;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    /* background-color: antiquewhite; */
+    color: #000;
+    font-family: "Cabinet Grotesk", Arial, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .header__button {
+    border: none;
+    border-radius: 12px;
+    background: #fe14ef;
+    padding: 10px 10px 10px 10px;
+    /* background-color: #fff; */
+    color: #000;
+    font-family: "Cabinet Grotesk", Arial, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .header__button:hover {
+    opacity: 0.4;
+    background-color: antiquewhite;
+  }
+
+  .header__tab:hover {
+    opacity: 0.4;
+    background-color: antiquewhite;
+  }

@@ -1,0 +1,24 @@
+.trending-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-swiper {
+    width:100%;
+    height: 400px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #fff !important;
+}
+
